@@ -1,0 +1,179 @@
+html {
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+
+body {
+  background-color: #F0ECEE;
+  background: url("bulldog.jpg") no-repeat center fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: right top;
+  width: 100%;
+}
+
+
+.container {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+
+
+h3 {
+  width: 20%;
+  height: 100%;
+  margin-top: 10px;
+  margin-left: 50px;
+  float: left;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+
+
+.item-1 {
+  display: inline;
+  color: #88898b;
+  margin: 5px;
+}
+
+button {
+  width: auto;
+}
+
+
+.button1 {
+  background-color: #FF4850;
+  border: none;
+  margin: 4px 2px;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 300;
+  color: white;
+}
+.contact {
+  color: white;
+}
+
+.find {
+  color: white;
+  display: inline-block;
+}
+  
+.button2 {
+  background-color: #FF4850;
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 18px;
+    font-weight: 300;
+    color: white;
+}
+
+a {
+    justify-content: center;
+  text-decoration: none;
+  color: #88898B;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+li {
+    display: inline;
+    padding: 10px;
+      font-weight: 300;
+}
+
+.red {
+  color: #FF4850;
+
+}
+
+
+
+h1{
+  font-weight: 600;  
+}
+
+p {
+  color: #88898B;
+  line-height: 1.6;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+a:hover {
+
+  border-radius: 5px;
+  color: #FF4850;
+}
+
+.button1:hover {
+  background-color: #CCC;
+  color: #FF4850;
+}
+.button2:hover {
+  background-color: #CCC;
+  color: #FF4850;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: #f0ECEE;
+    background-image: none;
+  }
+  
+  .container {
+    flex-direction: column;
+  }
+  
+  url {
+    display: none;
+  }
+  
+  a {
+    display: block;
+    text-align: left;
+  }
+  .item-1{
+    display: inline;
+    width: 100%;
+  }
+  .contact {
+    width: 100%;
+    text-align: center;
+  }
+  h1 {
+    text-align: left;
+    width: 200%;
+  }
+  p {
+    text-align: left;
+    width: 200%;
+  }
+  
+  h3 {
+    width: auto;
+    margin-left: 0;
+  }
+  .find {
+    width: 100%;
+    text-align: center;
+  }
+  button {
+    width: 100%;
+  }
+  .button2 {
+    width: 100%;
+  }
+}
+
